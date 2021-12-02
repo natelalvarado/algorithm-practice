@@ -33,6 +33,29 @@
 # p lessthan
 
 #----------------------------------------------------------------------------------------------------------------------------------------
+# Given an array of numbers, write a function that returns a new array whose values are the original array’s value doubled.
+
+# Input: [4, 2, 5, 99, -4]Output: [8, 4, 10, 198, -8]
+
+# i = 0
+# numbers = [4, 2, 5, 99, -4]
+# doubled = []
+
+# while i < numbers.length
+#   twice = numbers[i] * 2
+#   doubled << twice
+#   i += 1
+# end
+
+# p doubled
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+Write a function that returns the greatest value from an array of numbers.
+
+Input: [5, 17, -4, 20, 12]Output: 20
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------
 # Given a year, report if it is a leap year. The tricky thing here is that a leap year in the Gregorian calendar occurs: 
 # on every year that is evenly divisible by 4
 # except every year that is evenly divisible by 100
