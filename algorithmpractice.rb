@@ -50,11 +50,15 @@
 # p doubled
 
 #----------------------------------------------------------------------------------------------------------------------------------------
-Write a function that returns the greatest value from an array of numbers.
+# Write a function that returns the greatest value from an array of numbers.
 
-Input: [5, 17, -4, 20, 12]Output: 20
+# Input: [5, 17, -4, 20, 12]Output: 20
 
+# i = 0 
 
+# while i < numbers.length
+  
+# end
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Given a year, report if it is a leap year. The tricky thing here is that a leap year in the Gregorian calendar occurs: 
 # on every year that is evenly divisible by 4
@@ -83,3 +87,32 @@ Input: [5, 17, -4, 20, 12]Output: 20
 #   end
 # end
 # p leap_year(1900)
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+# Given a string, write a function that returns a copy of the original string that has every other character capitalized. (Capitalization should begin with the second character.)
+
+#   Input: “hello, how are your porcupines today?”
+#   Output: “hElLo, HoW ArE YoUr pOrCuPiNeS ToDaY?”
+
+# variables
+string = 'hello, how are your porcupines today?'
+# i = 0 
+
+# Use split method to convert to array 
+array = string.split(" ")
+# Use while to iterate through the array 
+i = 0 
+def 
+  while i < array.length
+    
+# Change every other letter to Cap
+  end 
+    i += 1 
+end
+
+# convert back to string and return 
+return array.join(" ") 
+end 
+
+
+
