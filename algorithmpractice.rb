@@ -50,18 +50,29 @@
 # p doubled
 
 #----------------------------------------------------------------------------------------------------------------------------------------
-Write a function that returns the greatest value from an array of numbers.
+# Write a function that returns the greatest value from an array of numbers.
 
-Input: [5, 17, -4, 20, 12] Output: 20
+# Input: [5, 17, -4, 20, 12] Output: 20
 
-def largest_number(array)
-  i = 0 
-  while i < numbers.length
-    
-end
+# def largest_number(array)
+#   lrg_num = 0
+#   i = 0 
+#   while i < array.length
+#     if array[i] > lrg_num 
+#       lrg_num = array[i]
+#     end
+#     i += 1  
+#   end
+#   return lrg_num
+# end
 
-  
-end
+# p largest_number([5, 17, -4, 20, 12])
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+# Write a function that accepts an array of numbers and returns the product of all the numbers.
+
+# Input: [1, 2, 3, 4]Output: 24
+
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Given a year, report if it is a leap year. The tricky thing here is that a leap year in the Gregorian calendar occurs: 
 # on every year that is evenly divisible by 4
@@ -117,5 +128,57 @@ end
 # return array.join(" ") 
 # end 
 
+#----------------------------------------------------------------------------------------------------------------------------------------
+# Given two arrays, determine whether one is a subset of the other. It is considered a subset if all the values in one array are contained within the other.
+
+# NOTE: You must accomplish this in O(n) time. This is also known as linear time.
+
+# Input: [1, 2, 3, 4, 5, 6], [6, 3, 2]
+# Output: true
+
+# Input: [1, 2, 3, 4, 5, 6], [6, 3, 7]
+# Output: false
+
+# def subset(arr1, arr2)
+
+# end
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+# A given string contains all the letters from the alphabet except for one. Return the missing letter.
+
+# NOTE: You must accomplish this in O(n) time. This is also known as linear time.
+
+# Input: “The quick brown box jumps over a lazy dog”
+# Output: “f”
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+# This is very similar to ETL #3, but you must now accomplish the task in linear time (O(N)).
+
+# Given an array of Youtube videos, for example:
+
+ 
+  # and an array of authors, for example:
+  
+  # [
+  # {id: 1, first_name: 'Jazz', last_name: 'Callahan'},
+  # {id: 2, first_name: 'Ichabod', last_name: 'Loadbearer'},
+  # {id: 3, first_name: 'Saron', last_name: 'Kim'},
+  # {id: 4, first_name: 'Teena', last_name: 'Burgess'},
+  # ]
+  
+  # Return a new array of videos in the following format, and only include videos that have at least 100 views:
+  
+  # [
+  # {title: 'How to Seem Perfect', views: 111, author_name: 'Teena Burgess' }
+  # {title: 'Review of the New "Unbreakable Mug"', views: 202, author_name: 'Ichabod Loadbearer' },
+  # ]
+
+  # Input: array of videos and array of authors
+  # Ouput: array including title, views, and auther_name for videos w/ 100+ views
 
 
+  # first_name + last_name
+
+  # def Youtube_videos(arr1, arr2)
+  #   arr1 
+  # end
