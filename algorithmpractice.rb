@@ -73,6 +73,22 @@
 
 # Input: [1, 2, 3, 4]Output: 24
 
+# def allproduct(array)
+#   i = 0 
+#   product = 1 
+#   while i < array.length
+#     product = product * array[i]  # production = 2 * 2 + 1
+#     i += 1
+#     # return product
+#   end      
+#   return product
+# end
+
+# p allproduct([1, 2, 3, 4])
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Given a year, report if it is a leap year. The tricky thing here is that a leap year in the Gregorian calendar occurs: 
 # on every year that is evenly divisible by 4
