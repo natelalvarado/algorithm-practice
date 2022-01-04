@@ -90,40 +90,50 @@
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Given an array, write a function that returns an array that contains the original array’s values in reverse.
 
-# Input: [1, 2, 3, 4, 5]Output: [5, 4, 3, 2, 1]
+# # Input: [1, 2, 3, 4, 5]Output: [5, 4, 3, 2, 1]
 
-def reversed(array)
-  return array if array.size <= 1 
+# def reversed(array)
+#   return array if array.size <= 1 
 
-  swapped = true
-  while swapped
-    swapped = false 
-    0.upto(array.size-2) do |i|
-      if array[i] < array[i+1]
-        array[i], array[i+1] = array[i+1], array[i] 
-        swapped = true
-      end
-    end
-  end
+#   swapped = true
+#   while swapped
+#     swapped = false 
+#     0.upto(array.size-2) do |i|
+#       if array[i] < array[i+1]
+#         array[i], array[i+1] = array[i+1], array[i] 
+#         swapped = true
+#       end
+#     end
+#   end
 
-  array
-end
+#   array
+# end
 
-p reversed ([1, 2, 3, 4, 5])
+# p reversed ([1, 2, 3, 4, 5])
 
 #----------------------------------------------------------------------------------------------------------------------------------------
-Given an array of numbers, write a function that returns a new array in which only select numbers from the original array are included, based on the following details:
+# Given an array of numbers, write a function that returns a new array in which only select numbers from the original array are included, based on the following details:
 
-The new array should always start with the first number from the original array. The next number that should be included depends on what the first number is. The first number dictates how many spaces to the right the computer should move to pick the next number. For example, if the first number is 2, then the next number that the computer should select would be two spaces to the right. This number gets added to the new array. If this next number happens to be a 4, then the next number after that is the one four spaces to the right. And so on and so forth until the end of the array is reached.
+# The new array should always start with the first number from the original array. The next number that should be included depends on what the first number is. The first number dictates how many spaces to the right the computer should move to pick the next number. For example, if the first number is 2, then the next number that the computer should select would be two spaces to the right. This number gets added to the new array. If this next number happens to be a 4, then the next number after that is the one four spaces to the right. And so on and so forth until the end of the array is reached.
 
-Input:[2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]
+# Input:[2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]
 
-Output:[2, 3, 1, 2, 2, 1, 5, 2, 2]
+# Output:[2, 3, 1, 2, 2, 1, 5, 2, 2]
 
 #----------------------------------------------------------------------------------------------------------------------------------------
 Write a function that returns the reverse of a given string.
 
-Input: “abcde”Output: “edcba”
+Input: “abcde”Output: “edcba” 
+
+
+
+ def reversed(string)
+  {
+    new_string  = ""
+    
+  }
+ end
+
 #----------------------------------------------------------------------------------------------------------------------------------------
 # Given a year, report if it is a leap year. The tricky thing here is that a leap year in the Gregorian calendar occurs: 
 # on every year that is evenly divisible by 4
