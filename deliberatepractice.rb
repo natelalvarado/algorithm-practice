@@ -141,15 +141,15 @@
 # Output: 13
 # Explanation: (5 from the first array + 8 from the second array)
  
-#6
-Write a function that accepts two arrays of numbers, and returns an array that is the “intersection” of the two arrays, meaning an array of the numbers that are shared by the two original arrays.
+# #6
+# Write a function that accepts two arrays of numbers, and returns an array that is the “intersection” of the two arrays, meaning an array of the numbers that are shared by the two original arrays.
  
-Example: Two arrays: [5, 4, 3, 2, 1], [0, 2, 4, 6]
-Output: [2, 4] (or [4, 2])
-Explanation: 2 and 4 are the only values shared by both input arrays.
+# Example: Two arrays: [5, 4, 3, 2, 1], [0, 2, 4, 6]
+# Output: [2, 4] (or [4, 2])
+# Explanation: 2 and 4 are the only values shared by both input arrays.
  
-#7
-Write a function that accepts an array of numbers, and returns the first duplicate value.
+# #7
+# Write a function that accepts an array of numbers, and returns the first duplicate value.
  
-Example: [5, 7, 8, 9, 8, 2, 1]
-Output: 8 (since there are two 8’s in the array)
+# Example: [5, 7, 8, 9, 8, 2, 1]
+# Output: 8 (since there are two 8’s in the array)
